@@ -1,0 +1,12 @@
+{
+	"name": "jquery-uitablefilter",
+	"version": "1.0.0",
+	"description": "Small plugin for filtering (hiding) table rows based on their text content",
+	"license": "MIT",
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/RobCannon/jquery-uitablefilter.git"
+	},
+	"main": "jquery.uitablefilter.js"
+}
