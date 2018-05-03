@@ -6,7 +6,7 @@ $(function() {
   });
 
   $("#filter").keyup(function() {
-    $.uiTableFilter( theTable, this.value );
+    theTable.uiTableFilter( this.value );
   })
 
   $('#filter-form').submit(function(){

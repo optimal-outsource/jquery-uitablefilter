@@ -119,7 +119,7 @@ describe('filterInnerTable', {
   before_all : function(){
     var theTable = $("#testtable2")
     filter = function(pattern) {
-        $.uiTableFilter( theTable, pattern, 0 );
+        theTable.uiTableFilter( pattern, 0 );
     }
     
     resetFilter = function(){
